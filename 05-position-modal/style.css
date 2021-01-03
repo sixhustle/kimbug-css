@@ -54,10 +54,12 @@ button:active {
 
 /* ▼ WHERE YOUR CODE BEGINS */
 .modal {
-  width: 671px;
   padding: 16px 32px;
   border-radius: 4px;
-  position: relative;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .modal-title {
@@ -66,7 +68,9 @@ button:active {
 }
 
 .modal-desc {
+  width: 590px;
   text-align: center;
+  margin: 0 auto;
   margin-bottom: 24px;
 }
 
